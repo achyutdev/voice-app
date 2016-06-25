@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+  #- 1.9.3
+  #- 2.0.0-p353
+  - 2.1.0
+  #- jruby
+  #- jruby-19mode # JRuby in 1.9 mode
+  #- jruby-head
+  #- ruby-head
+  #- ree
+env:
+  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+before_script:
+  - mysql -e 'create database if not exists adcstest1;'
+notifications:
+     email:
+         recipients:
+             - achyut.dev@gmail.com
