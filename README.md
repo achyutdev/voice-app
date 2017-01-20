@@ -1,7 +1,6 @@
 # Welcome to IVR system
-<a href="https://codeclimate.com/github/achyutdev/voice-app"><img src="https://codeclimate.com/github/achyutdev/voice-app/badges/gpa.svg" /></a>
 
-
+[![Code Climate](https://codeclimate.com/github/achyutdev/voice-app/badges/gpa.svg)](https://codeclimate.com/github/achyutdev/voice-app)
 
 
 Adhearsion framework is integrated with asterisk.
